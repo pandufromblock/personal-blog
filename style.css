@@ -1,0 +1,56 @@
+body
+{
+    background-image: url(https://thumbs.dreamstime.com/b/yellow-textured-plain-background-wallpaper-design-use-text-image-yellow-textured-plain-background-wallpaper-137515345.jpg);
+}
+#lop
+{
+    text-align: center;
+    color:white;
+}
+#mop {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+   img{
+     max-width: 100%;
+     max-height:100%;
+   }
+   .solid
+   {
+    border-style:solid;
+    border-width:3px;
+    border-color:black;
+    padding:5px;
+    font-size:19px;
+  }
+  #pom {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   .sol
+   {
+    border-style:solid;
+    border-width:3px;
+    border-color:black;
+    padding:5px;
+    font-size:19px;
+  }
+  #pan {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   .klu
+   {
+    border-style:solid;
+    border-width:3px;
+    border-color:black;
+    padding:5px;
+    font-size:19px;
+  }

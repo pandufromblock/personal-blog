@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("li").hide("fast");
+    });
+});
+$(document).ready(function(){
+    $("#show").click(function(){
+        $("li").show("2000");
+    });
+});

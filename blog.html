@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>blog</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+        <style>
+            body
+            {
+                 background-image: url(data:image/jpeg;base64,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);
+            }
+        
+            #hp
+            {
+                text-align: center;
+            }
+            #m
+            {
+                color:darkgreen;
+            }
+            #n
+            {
+                color:darkgreen;
+            }
+            #k
+            {
+                color:darkgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="about.html"><button type="button" class="btn btn-lg btn-success">ABOUT</button></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="works.html"><button type="button" class="btn btn-lg btn-success">WORKS DONE</button></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="info.html"><button type="button" class="btn btn-lg btn-success">INFORMATION</button></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="touch.html"><button type="button" class="btn btn-lg btn-success">GET IN TOUCH</button></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="social.html"><button type="button" class="btn btn-lg btn-success">SOCIAL MEDIA</button></a>
+                </div>
+                <div class="col-md-2">
+                    <a href="goal.html"><button type="button" class="btn btn-lg btn-success">GOAL</button></a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h1 class="text-decoration-underline" id="hp">PERSONAL BLOG OF ME</h1>
+        <br>
+        <br>
+        <img src="https://honestlygrateful.com/wp-content/uploads/2020/09/hyacinth-1398839_1920-welcome-blog-1530x700.jpg" width="100%" height="30%">
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="text-decoration-underline" id="n">Why personal blog?<img src="https://img.favpng.com/23/2/25/transparency-clip-art-portable-network-graphics-question-mark-computer-icons-png-favpng-96ZsKkq2YgehyXz3cxNiAJSWa.jpg" style="width:30%"></h3>
+                    <br>
+                    <h5>By having a personal blog, you're going to improve your writing. This is a great school to have whether you end up being a blogger or not. To be able to communicate with the written world is really important. It's also going to help you to think about how you communicate.</h5>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-decoration-underline" id="m">Steps to create a personal blog</h3>
+                    <br>
+                    <ul>
+                        <li><h4>Sign in to Blogger</h4></li>
+                        
+                        <li><h4>On the left, click the Down arrow</h4></li>
+
+                        <li><h4>Click New blog</h4></li>
+                        
+                        <li><h4>Enter a name for your blog</h4></li>
+                        
+                        <li><h4>Click Next.
+                            Choose a blog address or URL</h4></li>
+                        
+                        <li><h4>Click Save</h4></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-decoration-underline" id="k">Advantages of having personal blog</h3>
+                    <ul>
+                        <li><h4>You can manage your online identity and build trust</h4></li>
+                        <li><h4> You will learn new things</h4></li>
+                        <li><h4>You will improve your writing skills</h4></li>
+                        <li><h4>You could become proficient in a new language</h4></li>
+                        <li><h4>You can get technical knowledge</h4></li>
+                        <li><h4>You will connect with new people</h4></li>
+                        <li><h4>You will get proclaimed an expert.</h4></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-8">
+                <a href="about.html"><button type="button" class="btn btn-lg btn-success">NEXT PAGE➡️</button></a>
+            </div>
+        </div>
+        <br>
+    </body>
+</html>
